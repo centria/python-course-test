@@ -1,5 +1,5 @@
 ---
-title: 'Part 2 - Problem solving'
+title: 'Part 2 - Terminology'
 nav_order: 3
 hidden: false
 ---
