@@ -1,34 +1,46 @@
 ---
-title: 'Part 1 - The beginning'
+title: 'Part 1 - Start Programming'
 nav_order: 2
 hidden: false
 ---
 
-During this course, you will learn how to do basic programs. The course starts from the very beginning and goes deeper as we progress. Before we start coding, we have to know what coding is, exactly.
+Computer programs consist of _commands_, that is, simple instructions that the machine executes one at a time. Commands can, for example, perform calculations, compare data in the machine's memory, cause a change in the operation of the program, or convey messages and query the user for information.
 
-Coding, in brief, is designing and creating **software** or **programs**. The programs are (usually) written in human-readable language, known as **programming languages**. There are hundreds of programming languages available, but on this course we concentrate on **C#**. You can find more information about the language from the [**here**](https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/). The language has good documentation, and you will find necessary information from there, later during the course.
+Let's start learning about programming with a simple command `print`, which _prints_ text. Printing basically means that the program displays text on the screen.
 
-Programming languages offer multiple **methods** and **commands** as **built-in**. Thus we do not implement everything ourselves. Large part of coding is using the built-in methods for problem solving. The written code is called **source code** and is comprised of **statements** and **expressions**. The code usually read just like any other written text, from left to right, top to bottom.
+For example, the following program prints the line "Hello everyone!":
 
-Our C# programs require a certain type of body to function:
+`` `python
+print ("Hello everyone!")
+`` `
 
-```cpp
-public class Program {
-    public static void Main(string[] args)
-    {
-        // Add your statements here
-    }
-}
-```
+When we run the program, it produces the following result:
 
-There are many parts to this body, of which many are automatically created. We will concentrate on them later during this course.
+Hey everyone!
 
-For now it is enough for you to know, that in a program there is always code that is not written by the coder. There are some features in all programming languages that are required for the program to run.
+Note that the program code must be written exactly as above for it to work. For example, if we try to print a line without using quotation marks
 
-## Running a program
+`` `python
+print (Hi everyone!)
+`` `
 
-When you want to try if your source code works, you **run your program**. This means basically two steps: First, the code needs to be **compiled**. The second step is running the code. Luckily, the compilation and running can usually be done quite automatically, with a dedicated compiler. With modern development tools compilation and running are done with one command, or even a click of a button.
+the program does not work and results in the following error message:
 
-When you compile your code. the C# compiler compiles the source code into the module, which is converted into the assembly. The assembly contains the Intermediate Language (IL) code along with the metadata information about the assembly. The common language runtime (CLR) works with the assembly. It loads the assembly and converts it into the native code to execute the assembly. Then this native code is executed by the operating system and the output will shows according to your requirement.
+So Python can't interpret printable text correctly if it's not in quotation marks.
 
-As you can see, the compiling process is quite a complicated task, where the human-readable code is transferred into more machine-readable. We concentrate on the human-readable side of code.
+## Program progress
+
+When you write several commands in a row,
+they are performed in order from top to bottom.
+For example, a program
+
+`` `python
+print ("Welcome to learning programming!")
+print ("Practice using the print command first.")
+print ("This program prints three lines of text on the screen.")
+`` `
+print the following lines on the screen:
+
+Welcome to learn programming!
+First, practice using the print command.
+This program prints three lines of text on the screen.
