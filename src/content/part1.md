@@ -10,9 +10,9 @@ Let's start learning about programming with a simple command `print`, which _pri
 
 For example, the following program prints the line "Hello everyone!":
 
-`` `python
+```python
 print ("Hello everyone!")
-`` `
+```
 
 When we run the program, it produces the following result:
 
@@ -20,9 +20,9 @@ Hey everyone!
 
 Note that the program code must be written exactly as above for it to work. For example, if we try to print a line without using quotation marks
 
-`` `python
+```python
 print (Hi everyone!)
-`` `
+```
 
 the program does not work and results in the following error message:
 
@@ -34,11 +34,11 @@ When you write several commands in a row,
 they are performed in order from top to bottom.
 For example, a program
 
-`` `python
+```python
 print ("Welcome to learning programming!")
 print ("Practice using the print command first.")
 print ("This program prints three lines of text on the screen.")
-`` `
+```
 print the following lines on the screen:
 
 Welcome to learn programming!
