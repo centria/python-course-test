@@ -1,5 +1,5 @@
 ---
-title: 'Part 1 - Start Programming'
+title: 'Part 1 - Start Python Programming'
 nav_order: 2
 hidden: false
 ---
